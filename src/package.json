@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "cd dorm_service_frontend && cd frontend && yarn start",
+        "server": "cd dorm_service_backend && dorm_service/Scripts/activate && cd App && uvicorn main:app --reload"
+      }
+}
